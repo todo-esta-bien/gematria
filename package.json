@@ -1,0 +1,40 @@
+{
+  "name": "gematria",
+  "version": "0.0.1",
+  "description": "Library to calculate numeric values from names or dates",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:verbose": "npm test -- --verbose",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todo-esta-bien/gematria.git"
+  },
+  "keywords": [
+    "numerology"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  },
+  "author": "roeeyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/todo-esta-bien/gematria/issues"
+  },
+  "homepage": "https://github.com/todo-esta-bien/gematria#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.7.4",
+    "husky": "^8.0.0"
+  }
+}
