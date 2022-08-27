@@ -8,6 +8,7 @@
     "module": "es2022",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": false
