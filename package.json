@@ -2,6 +2,7 @@
   "name": "@todo-esta-bien/gematria",
   "version": "0.0.1",
   "description": "Library to calculate numeric values from names or dates",
+  "private": false,
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
