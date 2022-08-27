@@ -4,6 +4,7 @@
   "description": "Library to calculate numeric values from names or dates",
   "private": false,
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "test:verbose": "npm test -- --verbose",
