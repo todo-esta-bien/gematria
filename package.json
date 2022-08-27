@@ -5,7 +5,7 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "npm run build && jest",
     "test:watch": "npm test -- --watch",
     "test:verbose": "npm test -- --verbose",
     "prepare": "husky install"
