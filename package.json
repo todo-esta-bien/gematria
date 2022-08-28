@@ -6,7 +6,7 @@
   "description": "Library to calculate numeric values from names or dates",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && jest",
+    "test": "jest",
     "test:watch": "npm test -- --watch",
     "test:verbose": "npm test -- --verbose",
     "prepare": "husky install",
