@@ -1,6 +1,6 @@
 {
   "name": "@todo-esta-bien/gematria",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Library to calculate numeric values from names or dates",
   "scripts": {
     "build": "tsc",
