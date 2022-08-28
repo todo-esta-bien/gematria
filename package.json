@@ -2,6 +2,7 @@
   "name": "@todo-esta-bien/gematria",
   "version": "0.0.8",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "description": "Library to calculate numeric values from names or dates",
   "scripts": {
     "build": "tsc",
