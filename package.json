@@ -8,7 +8,8 @@
     "test": "npm run build && jest",
     "test:watch": "npm test -- --watch",
     "test:verbose": "npm test -- --verbose",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
