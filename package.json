@@ -2,7 +2,6 @@
   "name": "@todo-esta-bien/gematria",
   "version": "0.0.7",
   "description": "Library to calculate numeric values from names or dates",
-  "private": false,
   "scripts": {
     "build": "tsc",
     "test": "npm run build && jest",
@@ -31,6 +30,7 @@
   "bugs": {
     "url": "https://github.com/todo-esta-bien/gematria/issues"
   },
+  "files": "/build",
   "homepage": "https://github.com/todo-esta-bien/gematria#readme",
   "devDependencies": {
     "@types/jest": "^28.1.7",

@@ -3,7 +3,7 @@
   "exclude": ["node_modules/*"],
   "compilerOptions": {
     "types": ["jest"],
-    "outDir": "./build",
+    "outDir": "build",
     "target": "es2021",
     "module": "es2022",
     "moduleResolution": "node",
