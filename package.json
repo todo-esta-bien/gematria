@@ -2,13 +2,15 @@
   "name": "@todo-esta-bien/gematria",
   "version": "0.0.9",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "description": "Library to calculate numeric values from names or dates",
   "scripts": {
     "build": "tsc",
     "test": "npm run build && jest",
     "test:watch": "npm test -- --watch",
     "test:verbose": "npm test -- --verbose",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
